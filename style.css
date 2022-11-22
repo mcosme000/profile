@@ -1,6 +1,15 @@
 
 /* GLOBAL STYLES */
 
+h1, h3, .button {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p, li, a {
+  font-family: 'PT Serif', serif;
+  line-height: 1.5;
+}
+
 body {
   background: #ececec;
   line-height: 1.2;
@@ -8,14 +17,6 @@ body {
 
 h1 {
   font-size: 30px;
-}
-
-h1, h3, .button {
-  font-family: 'Montserrat', sans-serif;
-}
-
-p, li, a {
-  font-family: 'PT Serif', serif;
 }
 
 img {
@@ -40,7 +41,7 @@ a {
 }
 
 ul > a:hover {
-  color: #e46a55;
+  color: #77BFA3;
 }
 
 .rounded-img {
@@ -50,12 +51,12 @@ ul > a:hover {
 .button {
   padding: 10px 20px;
   border-radius: 3px;
-  background: #e46a55;
+  background: #77BFA3;
   color: white;
 }
 
 .button:hover {
-  background: #cf6856;
+  background: #77BFA3;
 }
 
 /* STRUCTURE STYLES */
@@ -68,10 +69,8 @@ ul > a:hover {
 .card {
   margin-bottom: 20px;
   padding: 40px;
-  border-radius: 10px;
-  background: #ececec;
-  box-shadow:  20px 20px 60px #c9c9c9,
-  -20px -20px 60px #ffffff;
+  border-radius: 5px;
+  background: #ffffff;
 }
 
 .text-center {
