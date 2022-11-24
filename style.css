@@ -1,4 +1,3 @@
-
 /* GLOBAL STYLES */
 
 h1, h3, .button {
@@ -20,7 +19,7 @@ h1 {
 }
 
 img {
-  width: 120px;
+  width: 220px;
 }
 
 ul {
@@ -44,7 +43,8 @@ ul > a:hover {
   color: #77BFA3;
 }
 
-.rounded-img {
+.avatar {
+  width: 150px;
   border-radius: 50%;
 }
 
@@ -73,6 +73,16 @@ ul > a:hover {
   background: #ffffff;
 }
 
+.img-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-container > img {
+  width: 30%;
+  margin: 5px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -80,7 +90,18 @@ ul > a:hover {
 /* MEDIA QUERIES */
 
 @media (max-width: 720px) {
-  .container { width: 90%; }
+  .container {
+    width: 90%;
+  }
+  .img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-container > img {
+    width: 100%;
+  }
 }
 
 @media (max-width: 540px) {
